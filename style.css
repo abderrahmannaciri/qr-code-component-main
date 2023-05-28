@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* Font size (paragraph): 15px */
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--Light-gray);
+    height: 100vh;
+    position: relative;
+}
+.card{
+    height: 505px;
+    width: auto;
+    background-color: var(--White);
+    position: absolute;
+    left: 600px;
+    top: 150px;
+    border-radius: 25px;
+    
+}
+.qr{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    
+    
+}
+.pic{
+    height: 300px;
+    border-radius: 10px;
+    width: 290px;
+    
+}
+.text{
+    padding-left: 60px;
+    position: relative;
+    
+}
+.title{
+    font-size: 20px;
+    font-family:Outfit; 
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 18px;
+    right: 55px;
+    color: var(--Dark-blue);
+    
+}
+
+.para{
+    padding-top: 30px;
+    position: absolute;
+    top: 55px;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    left: 40px;
+    color:var(--Grayish-blue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
